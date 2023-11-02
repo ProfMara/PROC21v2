@@ -19,16 +19,8 @@ function setup() {
     engine = Engine.create();
     world = engine.world;
 
-    solo = new Parede(200, 390, 400, 20);
 
-    paredeEsquerda = new Parede(0, 200, 20, 400);
-
-
-  /*  botao = createImg();
-    botao.position();
-    botao.size();
-    botao.mouseClicked();
-*/
+  
     ellipseMode(RADIUS);
     rectMode(CENTER);
 
@@ -36,9 +28,6 @@ function setup() {
 
 function draw() {
     background("cyan");
-
-    solo.show();
-    paredeEsquerda.show();
 
     
 
